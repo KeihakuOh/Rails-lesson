@@ -71,4 +71,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'html2slim'
+gem 'slim-rails'
