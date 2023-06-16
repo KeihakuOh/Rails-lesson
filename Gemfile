@@ -72,3 +72,6 @@ group :test do
 end
 
 gem 'slim-rails'
+
+gem 'bootstrap-sass', '3.4.1'
+gem 'rails-controller-testing'
