@@ -2,6 +2,12 @@ source "https://rubygems.org"
 
 gem 'bcrypt',         '3.1.12'
 
+gem 'faker', '~> 2.17'
+
+gem 'will_paginate',           '3.3.0'
+
+gem 'bootstrap-will_paginate', '1.0.0'
+
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.1"
@@ -78,3 +84,4 @@ gem 'slim-rails'
 
 gem 'bootstrap-sass', '3.4.1'
 gem 'rails-controller-testing'
+gem "cssbundling-rails", "~> 1.2"
