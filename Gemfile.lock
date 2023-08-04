@@ -89,6 +89,10 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    carrierwave (1.2.2)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     cssbundling-rails (1.2.0)
@@ -126,6 +130,10 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2023.0218.1)
+    mini_magick (4.7.0)
     mini_mime (1.1.2)
     minitest (5.18.0)
     msgpack (1.7.1)
@@ -245,11 +253,13 @@ DEPENDENCIES
   bootstrap-sass (= 3.4.1)
   bootstrap-will_paginate (= 1.0.0)
   capybara
+  carrierwave (= 1.2.2)
   cssbundling-rails (~> 1.2)
   debug
   faker (~> 2.17)
   importmap-rails
   jbuilder
+  mini_magick (= 4.7.0)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   rails-controller-testing
